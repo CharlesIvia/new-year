@@ -7,10 +7,8 @@ const year = document.getElementById("year");
 const loading = document.getElementById("loading");
 
 const currentYear = new Date().getFullYear();
-console.log(currentYear);
 
 const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
-console.log(newYearTime);
 
 //Set background year
 
